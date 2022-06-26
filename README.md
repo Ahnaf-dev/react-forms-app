@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Form In React With Use React Form (https://react-hook-form.com/)
+Site: https://react-forms-app.vercel.app/
+
+- Simple form validation in React with react hook form.
+
 
 ## Getting Started
 
