@@ -13,4 +13,76 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 100px;
+  background-color: #191919;
+  color: #fdfaee;
+}
+
+form {
+  /* outline: 1px solid red; */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 55px;
+}
+
+.form__group.error {
+  color: red;
+  opacity: 0.8;
+}
+
+.form__group.error input::placeholder {
+  color: red;
+  opacity: 0.8;
+}
+
+.form__group.error input {
+  border-bottom: 2px solid rgba(255, 0, 0, 0.315);
+}
+
+.form__group input {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 30px;
+  background-color: transparent;
+  opacity: 0.8;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fdfaee57;
+  color: #fdfaee;
+}
+
+.form__group .form__error {
+  margin-left: auto;
+  margin-top: 5px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+button {
+  background-color: #160fbb;
+  padding: 20px;
+  border: none;
+  font-size: 30px;
+  color: #fdfaee;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.valid {
+  color: green;
+  font-size: 30px;
+  margin-bottom: 50px;
 }
